@@ -4,3 +4,11 @@ export const addCar = (car) => {
         value: car
     }
 }
+
+export const removeCar = (index) => {
+    return {
+        type: 'REMOVE_CAR',
+        value: index
+    }
+}
+
